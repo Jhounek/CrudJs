@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicaciones</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+
+        <header id="header">
+            <h1>Crud with JavaScript</h1>
+        </header>
+        
+        <section id="forms">
+            <div class="div create">
+                <h3>Create</h3>
+                <form id="form_create" class="form">
+                    <input type="text" placeholder="Your Title" name="title" id="input_create_title">
+                    <textarea name="publication" placeholder="Your Text" id="input_create_text"></textarea>
+                    <input type="submit" value="do it">
+                </form>
+            </div>
+    
+            <div class="div edit">
+                <h3>Edit</h3>
+                <form id="form_edit" class="form">
+                    <input type="text" placeholder="Your Title" name="title" id="input_edit_title">
+                    <textarea name="publication" placeholder="Your Text" id="input_edit_text"></textarea>
+                    <input type="submit" value="do it">
+                </form>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        <div id="div_publication">
+        </div>
+    </div>
+    <script type="text/javascript" src="src/app.js"></script>
+</body>
+</html>
